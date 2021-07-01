@@ -96,7 +96,8 @@ def songobj_from_spotify_url(spotifyURL: str, output_format: str = None):
         return None
     else:
         print(" " * (len(displayName) + 25), end="\r")
-        print(f'Found YouTube URL for "{displayName}" : {youtubeLink}')
+        print(f'Judul Lagu : "{displayName}" : {youtubeLink}')
+         # print(f'Found YouTube URL for "{displayName}" : {youtubeLink}')
 
     # (try to) Get lyrics from Genius
     try:
